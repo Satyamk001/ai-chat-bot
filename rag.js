@@ -15,5 +15,5 @@
 
 import { indexTheDocument } from './prepare.js';
 
-const filePath = './survey_user_manual.pdf';
+const filePath = './cg-internal-docs.pdf';
 indexTheDocument(filePath);

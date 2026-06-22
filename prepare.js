@@ -66,7 +66,7 @@ class GeminiEmbeddings {
 const embeddings = new GeminiEmbeddings({
   model: "gemini-embedding-001",
   // optional: set known dimensionality if desired, e.g. 1536
-  outputDimensionality: 1536,
+  outputDimensionality: 1526,
 });
 
 const pinecone = new PineconeClient();

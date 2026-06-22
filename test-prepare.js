@@ -35,7 +35,7 @@ class GeminiEmbeddings {
 async function run() {
   const embeddings = new GeminiEmbeddings({
     model: "gemini-embedding-001",
-    outputDimensionality: 1536,
+    outputDimensionality: 1526,
   });
   console.log("Testing embedDocuments...");
   try {
